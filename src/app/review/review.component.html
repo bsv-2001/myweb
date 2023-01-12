@@ -1,0 +1,50 @@
+<div class="main-1">
+    <div class="main">
+        <svg (click)="disp_backward()" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-caret-left-fill chg-color" viewBox="0 0 16 16">
+            <path
+                d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+        </svg>
+        <div class="sub-main">
+            <div class="container">
+                <div class="sub-1">
+                    <img style="border-radius: 50px;" width="70" height="70" src="./assets/sample.jpg" />
+                </div>
+                <div class="sub-2">
+                    <h3>{{name}}</h3>
+                </div>
+                <div class="sub-3">
+                    <img class="gstar" src="./assets/star.jpg" alt="" srcset="">
+                </div>
+                <div class="sub-con-1">
+                    <span class="txt">{{rev}}</span>
+                </div>
+            </div>
+            <div class="sub-con-2">
+                <div>
+                    <img class="gc-1" src="./assets/google_icon.jpg" alt="">
+                </div>
+                <div>
+                    <span style="caret-color: transparent" class="gc-2">&nbsp;&nbsp;{{when}}</span>
+                </div>
+            </div>
+        </div>
+
+        <svg (click)="disp_forward()" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-caret-right-fill chg-color" viewBox="0 0 16 16">
+            <path
+                d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+        </svg>
+    </div>
+    <div class="left-con">
+        <div class="txt-2">
+            Are you planning to or just landed in Chennai and thinking about a best Sharing Room or Paying Guest (pg)
+            accommodation near <span>Anna Nagar</span>, <span>Arumbakkam</span>, <span>Aminjikarai</span>,
+            <span>Vadapalani</span> or <span>Koyambedu?</span>
+        </div>
+        <div (click)="toPricing()" class="explore">
+            <span class="txt-3">Pricing</span>
+        </div>
+    </div>
+</div>
+<app-price id="some-div"></app-price>

@@ -1,0 +1,17 @@
+div{
+    background: linear-gradient(90deg, rgba(80,219,255,1) 0%, rgba(36,255,101,1) 100%);
+}
+#line-1{
+    margin-left: 5rem;
+    font-size: 8em;
+}
+
+span{
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+#line-2{
+    font-size: 6em;
+    margin-left: 40%;
+}
